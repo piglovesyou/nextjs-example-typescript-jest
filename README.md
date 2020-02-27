@@ -1,3 +1,20 @@
+**Jest integration to [Next.js with-typescript-graphql example](https://github.com/zeit/next.js/tree/canary/examples/with-typescript-graphql#readme).**
+![Node CI](https://github.com/piglovesyou/nextjs-example-typescript-jest/workflows/Node%20CI/badge.svg)
+
+Features:
+
+* **graphql-let transformer for Jest.** Please run `graphql-let` command before running Jest.
+* **Snapshot testing with mock data.** with `MockedProvider` of @apollo/react-testing. Note it's still apollo-client@2.
+
+References:
+
+* https://www.apollographql.com/docs/react/development-testing/testing/
+* https://jestjs.io/
+* https://kulshekhar.github.io/ts-jest/user/config/tsConfig
+* https://github.com/zeit/next.js/tree/canary/examples/with-typescript-graphql#readme
+
+-----
+
 # TypeScript and GraphQL Example
 
 One of the strengths of GraphQL is [enforcing data types on runtime](https://graphql.github.io/graphql-spec/June2018/#sec-Value-Completion). Further, TypeScript and [GraphQL Code Generator](https://graphql-code-generator.com/) (graphql-codegen) make it safer by typing data statically, so you can write truly type-protected code with rich IDE assists.

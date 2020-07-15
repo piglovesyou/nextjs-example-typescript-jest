@@ -5,3 +5,6 @@ plugins:
   - typescript-operations
   - typescript-react-apollo
 respectGitIgnore: true
+config:
+  reactApolloVersion: 3
+  apolloReactComponentsImportFrom: '@apollo/client/react/components'

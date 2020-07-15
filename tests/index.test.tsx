@@ -1,7 +1,7 @@
 import React from 'react';
 import Index from '../pages';
 import renderer from 'react-test-renderer';
-import { MockedProvider } from '@apollo/react-testing';
+import { MockedProvider } from '@apollo/client/testing';
 import gql from 'graphql-tag';
 import { promises } from 'fs';
 import { join as pathJoin } from 'path';

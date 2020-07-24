@@ -32,7 +32,7 @@
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
     "@types/react-test-renderer": "^16.9.2",
-    "graphql-let": "/Users/soichitakamura/IdeaProjects/graphql-let/graphql-let-v0.13.0.tgz",
+    "graphql-let": "*",
     "jest": "^26.1.0",
     "jest-transform-graphql": "^2.1.0",
     "react-test-renderer": "^16.13.1",

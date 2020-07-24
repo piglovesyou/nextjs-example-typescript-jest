@@ -1,7 +1,17 @@
 import React from 'react';
 import Link from 'next/link'
-import { useViewerQuery, ViewerDocument } from '../lib/viewer.graphql'
+// import { useViewerQuery, ViewerDocument } from '../lib/viewer.graphql'
 import { initializeApollo } from '../lib/apollo'
+import gql from 'graphql-let';
+
+const { useViewerQuery, ViewerDocument } = gql(`
+  query Viewer {
+    viewer {
+      id
+      name
+      status
+    }
+  }`);
 
 const Index = () => {
   const { data } = useViewerQuery()

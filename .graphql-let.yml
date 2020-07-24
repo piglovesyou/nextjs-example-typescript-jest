@@ -1,5 +1,7 @@
 schema: lib/type-defs.graphqls
-documents: '**/*.graphql'
+documents:
+  - '**/*.graphql'
+  - '!node_modules/**'
 plugins:
   - typescript
   - typescript-operations
@@ -8,3 +10,4 @@ respectGitIgnore: true
 config:
   reactApolloVersion: 3
   apolloReactComponentsImportFrom: '@apollo/client/react/components'
+cacheDir: __generated__

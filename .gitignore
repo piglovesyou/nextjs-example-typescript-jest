@@ -35,3 +35,4 @@ yarn-error.log*
 *.graphqls.d.ts
 
 yarn.lock
+__generated__
